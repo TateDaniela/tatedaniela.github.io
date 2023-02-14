@@ -1,0 +1,74 @@
+/* Home */
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+/* About */
+#pic img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+    
+    align-items: center;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+
+/* Portofolio */
+.gallery img{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+#portofolio{
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 1px;
+    align-items: center;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(238, 9, 9) 50%), rgb(43, 16, 16) 50%;
+    background-size: 100% 200%;
+    transition: all .8s;
+    margin-top: 10px;
+}
+.box img{
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+}
+.box h1{
+    font-size: 1rem;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.box h4{
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.box h3{
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+}
+.box h2{
+    margin-top: 1px;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
