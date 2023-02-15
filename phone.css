@@ -18,6 +18,9 @@
 #intro h2{
     font-size: 1.5rem;
 }
+#intro p{
+    font-size: 1rem;
+}
 
 /* Portofolio */
 .gallery img{
